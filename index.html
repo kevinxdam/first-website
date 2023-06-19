@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- this is for the document to acknowledge that it is html-->
+
+    <html lang="en"> <!-- html tag is redundant, but necessary. lang is en which is english, this helps search engines and other programs to recognize the natural language-->
+
+        <head> <!-- this is the header -->
+            <meta charset="UTF-8"> <!-- much like a camera, meta represents "metadata" meta is placed in the head element. It is basically data about data. charset="UTF-8" makes the data represent characters as unicode, research encoding->
+
+            <title>My First Webpage</title> <!-- this is the title of your website that displays on the tab of your browser-->
+        </head>
+
+        <body> <!-- this is for the "body" of your website and hosts most if not all of your main text-->
+            <h1>Hello World</h1> <!-- this is a heading -->
+            <p><strong>Lorem</strong> <em>ipsum</em> dolor sit amet consectetur adipisicing elit. </p>
+            <p>Voluptatem, dolorum expedita officiis cum iusto veritatis facilis autem delectus et illo explicabo laboriosam iure alias eaque distinctio vel, esse temporibus quos.</p>
+            <!--p= paragraph, strong= bold, em=italicize-->
+            
+        
+
+            <ul> <!--unordered lists bullet points-->
+                <li>A</li> <!--list item you need this for every item-->
+                <li>B</li>
+                <li>C</li>
+            </ul>        
+
+            <ol> <!--ordered lists numbered-->
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ol> 
+
+
+        </body>
+
+        <body>
+            <h1>Homepage</h1> 
+
+
+            <a href="https://www.theodinproject.com/about">click me</a> <!--this is an absolute link that displays the entire url from protocol to path, can be internal or external-->
+
+            <a href="./pages/about.html">About</a> <!--this is a relative link meaning internal links on the same website that links to a path that is relative to your root directory.relative links work by moving between directories ./ is used to specify that the path is "relative" to the current directory-->
+
+            <img src="./images/dog.jpg" width='75' height='75' alt="A picture of a dog"> <!-- this is a self closing tag, linked from root directory to images then dog.jpg-->
+            <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A picture of a Brown Bear"> <!--image from the web-->
+        </body>
+
+    </html>
